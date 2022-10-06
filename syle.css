@@ -1,0 +1,35 @@
+.foots{
+    width: 100%;
+    height: max-content;
+}
+.fin{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0%;
+}
+.walp{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: max-content;
+    margin-bottom: 5%;
+    background-color:darkgray;
+}
+
+.fivx{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    position: relative;
+    top: 5%;
+    color: whitesmoke;
+}
+
+.fivx p{
+    text-align: center;
+    position: relative;
+    top: 40%;
+    
+}

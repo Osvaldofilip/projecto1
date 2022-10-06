@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+   
+    <title>Aula osvL</title>
+
+
+
+</head>
+
+<body>   
+    <div class="conteiner">
+        <div class="slides">
+          <input type="radio" nome="slide" id="slide1" checked>
+          <input type="radio" nome="slide" id="slide2">
+          <input type="radio" nome="slide" id="slide3">
+          <input type="radio" nome="slide" id="slide4">
+          <input type="radio" nome="slide" id="slide5">
+          </div>
+       
+       
+          <div class="slide s1 ">
+           <img src="9a00374c30f2fd8c150d354a314b195f.jpg" alt="cyut">
+          </div>
+       
+          <div class="slide ">
+           <img src="icons8-instagram-30.png" alt="cfyi">
+          </div>
+       
+          <div class="slide ">
+           <img src="9e075a83daf6d64a88e05ede09763b29.png" alt="ffgg">
+          </div>
+       
+          <div class="slide ">
+           <img src="Web-Design-p.png" alt="tcy">
+          </div>
+       
+          <div class="slide ">
+           <img src="wallpaper_1366x768_alexrosa.net3_.jpg" alt="iycki">
+          </div>
+       
+          <div class="navegacao">
+           <label class="bar" for="slide1"> </label>
+           <label class="bar" for="slide2"> </label>
+           <label class="bar" for="slide3"> </label>
+           <label class="bar" for="slide4"> </label>
+           <label class="bar" for="slide5"> </label>
+          </div>
+       
+    </div > 
+         
+       <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height:100vh;
+            width: 100vw;
+            background-color: blueviolet;  
+        }
+          .conteiner  {
+            height: 520px;
+            width: 935;
+            border-radius: 20px;
+            overflow: hidden;
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+          }
+        .navegacao{
+            position: absolute;
+            box-orient: 20px;
+            top: 90%;
+            display: flex;
+            transform: translate(-50%);
+            left: 30%;
+        }
+        .bar{
+         width: 70px;
+         height: 17px;
+         border: 2px solid chartreuse;
+         margin: 6px;
+         cursor: pointer;    
+        }
+
+
+        .bar :hover{
+         background-color: bisque;   
+        }
+
+        .slides{
+            display: flex;
+            width: 500%;
+            height: 100%;
+
+
+        }
+
+        slide{
+            width: 20%;
+            transition: .6s;
+        }
+       </style>
+
+</body>
+
+</html>

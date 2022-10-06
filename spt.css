@@ -1,0 +1,256 @@
+body{
+    margin: 0%;
+    padding: 0%;
+  }
+  *{
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+  }
+  
+  /* Cabecalho */
+  #cabecalho{
+    height: auto;
+    width: -webkit-fill-available;
+    background-color: #00a16f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 0%;
+    
+    
+  
+  }
+  
+  #cabecalho .logo{
+    margin: 0;
+    font-size: 30px;
+  }
+  #cabecalho .logo .l1{
+    color: rgb(34, 33, 33);
+  }
+  #cabecalho .logo .l2{
+    color: rgb(57, 56, 56);
+  }
+  #cabecalho .logo .l3{
+    color: rgb(37, 36, 37);
+  }
+  #cabecalho .navegacao ul{
+    list-style: none;
+  font-weight: 750;
+  font-style: italic;
+  
+  
+  }
+  Contacto
+  #cabecalho .navegacao ul li{
+    display: inline-block;  
+    position: relative;
+    left: -50%;
+  }
+
+.material-icons{
+ position: relative;
+ top: -30%;  
+ left: 83%;
+   
+}
+
+
+  .text{
+    position: relative;
+  top: 25%;
+  color:#fff;
+  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #cabecalho .navegacao ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 17px;
+    
+  }
+  .text:hover{
+    color:black;
+    transition: all 1s;
+    text-decoration: overline;
+   
+    }
+  
+  /* sobre */
+  #sobre{
+    background-image: url(wallpaper_1366x768_alexrosa.net2_.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position-x: 15%;
+    background-position-y: -15%; 
+  }
+  
+  
+  
+  #sobre .dadosp{
+    /*background-color:rgb(187, 187, 34);*/
+    width: 50%;
+    height: 100%;
+    float: left;
+    opacity: 1;
+    font-size: large;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+   
+  .acerca{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    
+    
+  }
+
+  .p1{
+    position: relative;
+    top:-50%;
+    margin-left: 8%;
+    color:antiquewhite;
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
+  }
+
+  .p2{
+    position: relative;
+    top: -50%;
+    margin-left: 8%;
+    font-size: 60px;
+    font-style: normal;
+  }
+
+   .paleta{
+    width: 2.5px;
+    height: 70%;
+    background-color: azure;
+    position: relative;
+    top: 15%;
+    left: 7%;
+   }
+
+   .paltet{
+    width: 90%;
+    height: 2.5px;
+    background-color: azure;
+    position: relative;
+    left: 3%;
+    top: -3%;
+
+   }
+  
+
+  button{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    
+  }
+
+  .but1{
+    position: relative;
+    top: -40%;
+    left: 25%;
+    width: 30%;
+    height: 10%;
+    border: solid 2px black ;
+    z-index: 1;
+    transition: 2s;
+
+  }
+
+  .but1:hover{
+    transition: 2s;
+    background-color:rgb(23, 29, 27);
+  }
+  
+  .but2{
+    position: relative;
+    top: -51%;
+    left: 60%;
+    width: 30%;
+    height: 10%;
+    z-index: 1;
+    background-color:aquamarine;
+    border: solid 2px white; 
+  }
+
+  .but2:hover{
+    transition: 1s;
+    background-color:white;
+  }
+
+  .acerca p{
+  
+    position: relative;
+    left: 10%;
+    top: -52%;
+     font-size: 25px;
+     font-style: normal;
+     color: antiquewhite;
+  }
+
+  #sobre .foto{
+    /* background-color:rgb(194, 198, 232); */
+    width: 50%;
+    height: 100%; 
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    
+    
+  }
+  .imagem{
+      width: 90%;
+      height: 88%;
+      border: 2px solid gray;
+      object-fit: cover;
+      border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+      top: 5.5%;
+      position: relative;
+      left: 4.5%;
+  }
+  
+  a{
+    padding-left: 10px;
+    padding-right: 20px;
+   }
+  
+      ul{
+        list-style: none;
+        display: flex;
+      }
+
+
+      .sig{
+        z-index: 1;
+        opacity: 1;
+        color: black;
+      }
+   
+      .redes{
+        width: 0px;
+        height: 0%; 
+         position: relative;
+         top: -5%;
+         left: 84%;
+         z-index: 1;
+     }
+     .r2{
+      position: relative;
+      top: 5%;
+      margin-top: 50%;
+     }

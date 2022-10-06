@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+#cabecal{
+    height: auto;
+    width: -webkit-fill-available;
+    background-color: #00a16f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    position: fixed;
+    z-index: 1;
+    margin-top: -0%;
+  
+  
+  }
+  #cabecal .logo{
+    margin: 0;
+    font-size: 30px;
+  }
+  #cabecal .logo .l1{
+    color: rgb(34, 33, 33);
+  }
+  #cabecal .logo .l2{
+    color: rgb(57, 56, 56);
+  }
+  #cabecal .logo .l3{
+    color: rgb(37, 36, 37);
+  }
+  #cabecal .navegacao ul{
+   list-style: none;
+  font-weight: 800;
+  font-style: italic;
+  }
+  #cabecal .navegacao ul li{
+    display: inline-block;
+    
+  }
+  .text{
+  color:whitesmoke;
+  }
+  #cabecal .navegacao ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 17px;
+  }
+  #cabecal .navegacao ul li a:hover{
+    border: solid 2px;
+    color:white;
+    border-radius: 10px;
+}
+.ig{
+    border:solid 3px;
+    border-radius: 50%;
+    margin-left: 6%;
+    margin-top: 5%;
+    left: 0%;
+}
+
+
+  .fg{
+    margin: 0%;
+    
+  }  
+
+#fundo{
+    background-color:lightgrey;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#titlu{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 50px;
+    text-shadow:5px 6px 12px rgb(23, 23, 23);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.descri{
+
+  position: relative;
+  height: 10vh;
+}
+
+.tzx{
+  position: relative;
+  top: 40%;
+  text-align: center;
+  color: whitesmoke;
+}
+

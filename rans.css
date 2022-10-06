@@ -1,0 +1,60 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121212 ;
+}
+
+.chart-body{
+    padding: 25px;
+    border-radius: 20px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: antiquewhite;
+}
+
+.chart-serie{
+   position: relative;
+   width: 50px;
+   border-radius: 5px;
+   background-color: var(--color); 
+   transform-origin: bottom center;
+   animation: rise 1s linear forwards;
+}
+
+.chart-title{
+    text-align: center;
+    position: relative;
+    top: 25px;
+    color: #fff;
+}
+.chart-text{
+    text-align: center;
+    position: relative;
+    top: 25px;
+    color: #fff;
+}
+
+@keyframes rise
+ {
+
+    0%
+    {
+        height:0% ;
+    }
+    100%
+    {
+        height: var(--i);  
+    }
+}
